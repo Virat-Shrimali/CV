@@ -1,0 +1,250 @@
+\documentclass[letterpaper,11pt]{article}
+
+% Packages
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage[default]{lato}
+
+
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% Geometry
+\usepackage{geometry}
+\geometry{left=1.2cm, top=0.5cm, right=1.2cm, bottom=0.5cm}
+
+% Formatting
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections
+\titleformat{\section}{
+    \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-10pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{4pt}
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-10pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\vspace{4pt}\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+\newcommand{\listOfSkills}[2]{\vspace{0.1em}\hspace{1em}\small\textbf{#1}: {#2} \\}
+\definecolor{Black}{RGB}{0, 0, 0}
+\newcommand{\seticon}[1]{\textcolor{Black}{\csname #1\endcsname}}
+
+%-------------------------------------------%
+%%%%%%  RESUME STARTS HERE  %%%%%
+\begin{document}
+
+%----------HEADING----------%
+\begin{tabularx}{\textwidth}{@{} X r @{}}
+    \begin{minipage}[t]{\linewidth}
+        \textbf{\Huge \scshape Virat Shrimali} \\[0.5em]
+        \textit{B.Tech – Mathematics and Computing} \\[0.5em]
+        \href{mailto:viratns05@gmail.com}{\seticon{faEnvelope} \underline{viratshrimali2005@gmail.com}} \quad
+        \href{https://www.linkedin.com/in/virat-shrimali}{\seticon{faLinkedin} \underline{linkedin.com/in/virat-shrimali}} \quad
+        \href{https://github.com/Virat-Shrimali}{\seticon{faGithub} \underline{github.com/Virat-Shrimali}}
+    \end{minipage} & 
+    \raisebox{-0.5\height}{\includegraphics[height=3.2cm]{dau.jpg}} % Optional: replace or remove
+\end{tabularx}
+
+
+%-----------EDUCATION-----------%
+\section{\large{Education}}
+    \resumeSubHeadingListStart
+   
+    \resumeSubheading
+    {Dhirubhai Ambani University}{2023 - Present}
+    {\textbf{CPI}: 6.9}{Gandhinagar, Gujarat}
+    \resumeSubheading
+    {12th AES AG Higher Secondary School (GHSEB)}{2022 - 2023}
+    {\textbf{Percentage}: 75.23\% }{Ahmedabad, Gujarat}
+    \resumeSubheading
+    {10th AES AG Higher Secondary School (GSEB)}{2020 - 2021}
+    {\textbf{ Percentage}: 85.50\%}{Ahmedabad, Gujarat}
+    
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------%
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Summer Research Intern – IIT Gandhinagar}{May 2025 -- July 2025}
+    {Research Intern}{IIT Gandhinagar}
+    \resumeItemListStart
+        \resumeItem{Collaborated with \textbf{Prof. Jyothi Krishnan} to digitally recreate and analyze strategic board games through algorithmic software implementations.}
+
+        \resumeItem{Developed interactive ReactJS applications for 8+ board games, implementing complex game logic, state management, move validation, and rule enforcement.}
+        
+        \resumeItem{Designed reusable React components and modular game engines to support multiple board configurations and gameplay variants.}
+        
+        \resumeItem{Leveraged graph theory and combinatorial algorithms to generate balanced game boards with configurable difficulty and strategic depth.}
+        
+        \resumeItem{Debugged gameplay edge cases, validated rule correctness through extensive testing, and produced visual rule documentation to improve usability and maintainability.}
+
+        
+        
+        \resumeItem{\textbf{Work Showcase:} \href{https://docs.google.com/document/d/1XLX6OxbSEfbs7sw-ACm8_ANe2vhTzD5qKnSdJxaYLvw/edit?usp=sharing}{\textcolor{blue}{View Document}}}
+
+    \resumeItemListEnd
+ \resumeSubheading
+    {Summer Research Intern -- Dhirubhai Ambani University}{June 2026 -- July 2026}
+    {Research Intern $|$ Python, Streamlit, Scikit-learn, Pandas, NumPy, SciPy, Plotly}{DAU, Gandhinagar}
+    \resumeItemListStart
+        
+        % \resumeItem{Reproduced and extended a peer-reviewed Smart Grid data imputation study, implementing \textbf{7 algorithms} spanning statistical, interpolation, and machine-learning approaches: Median, LOCF, KNN, Makima, PCHIP, MICE, and MissForest.}
+        
+        % \resumeItem{Built a modular Python pipeline for \textbf{MCAR missing-data generation, imputation, evaluation, and experiment orchestration}, with standardized interfaces enabling new algorithms to be added without modifying the dashboard.}
+        
+        % \resumeItem{Developed an interactive \textbf{Streamlit dashboard} for CSV-based experimentation, configurable missing-data scenarios (1\%--99\%), algorithm selection, comparative analysis, and visualization.}
+        
+        % \resumeItem{Evaluated techniques using \textbf{MAE, RMSE, MAPE, and execution time}, analyzing trade-offs between imputation accuracy, computational cost, interpretability, and underlying data assumptions.}
+
+        \resumeItem{Reproduced and extended a peer-reviewed Smart Grid data imputation study, implementing \textbf{7 algorithms} spanning statistical, interpolation, and machine-learning approaches: Median, LOCF, KNN, Makima, PCHIP, MICE, and MissForest.} 
+        
+        \resumeItem{Built a modular Python pipeline for \textbf{MCAR missing-data} generation, imputation, and evaluation.} 
+        
+        \resumeItem{Developed an interactive \textbf{Streamlit} dashboard with \textbf{Pandas, NumPy, SciPy, and Plotly} for CSV-based experimentation, configurable missing-data scenarios (1\%--99\%), algorithm selection, comparative analysis, and visualization.} 
+        
+        \resumeItem{Evaluated techniques using \textbf{MAE, RMSE, MAPE, and execution time}, analyzing trade-offs between imputation accuracy, computational cost, interpretability, and underlying data assumptions.}
+    \resumeItemListEnd
+  % \resumeSubheading
+  %   {ACM India Summer School on Quantum Circuits and Quantum Algorithms}{June 2025}
+  %   {Participant}{JUIT, Solan, Himachal Pradesh}
+  %   \resumeItemListStart
+  %       \resumeItem{Selected through a national-level screening process for a 2-week ACM India summer school.}
+  %       \resumeItem{Learned quantum computing fundamentals including quantum gates, circuit design, and algorithms such as Grover's Search and Quantum Fourier Transform.}
+  %       \resumeItem{Implemented quantum circuits and algorithms using Qiskit through guided laboratory sessions.}
+  %       \resumeItem{Attended lectures by researchers and faculty from IITs, IIIT-Delhi, ICTS, UT Austin, and Sorbonne University.}
+  %   \resumeItemListEnd
+
+  % \resumeSubheading
+  %   {ACM India Summer School on Quantum Circuits and Quantum Algorithms}{June 2025}
+  %   {Participant}{JUIT, Solan}
+  %   \resumeItemListStart
+  %       \resumeItem{Selected through national-level screening for a 2-week ACM India summer school.}
+  %       \resumeItem{Implemented quantum circuits and algorithms using Qiskit in hands-on laboratory sessions.}
+  %       \resumeItem{Studied quantum computing concepts including quantum gates, Grover's Search, and Quantum Fourier Transform.}
+  %   \resumeItemListEnd
+
+  % \resumeSubheading
+  %   {J.P. Morgan Software Engineering Virtual Experience}{Sep 2024}
+  %   {Forage}{Remote}
+  %   \resumeItemListStart
+  %       \resumeItem{Debugged a financial data visualization application and configured the local development environment.}
+  %       \resumeItem{Implemented real-time stock data visualization using JPMorgan's Perspective library.}
+  %   \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------%
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{The Almost Impossible Chessboard Puzzle} $|$ \emph{ReactJS, Node.js, HTML/CSS}}%
+    {\href{https://github.com/Virat-Shrimali/chessboard-puzzle.git}{\faGithub} \href{https://chessboard-puzzle-virat-shrimalis-projects.vercel.app/}{Live}}
+    \resumeItemListStart
+        \resumeItem{Built a puzzle game where one player encodes a key using coin flips and the other decodes it.}
+        \resumeItem{Implemented real-time logic and animations in a responsive React interface.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------%
+\section{Technical Skills}
+
+\listOfSkills{Programming}{C++, Python, Java, JavaScript}
+
+\listOfSkills{Frameworks \& Web}{ReactJS, Node.js, HTML, CSS}
+
+\listOfSkills{Databases}{PostgreSQL}
+
+\listOfSkills{Tools}{Git, GitHub, VS Code, \LaTeX}
+
+\listOfSkills{Libraries}{NumPy, Pandas, Spacy}
+
+\listOfSkills{Relevant Coursework}{Distributed Databases, Machine Learning, Probability and Random Processes, Mathematical Statistics, Game Theory, Parallel \& Distributed Algorithms, DSA, OOPs, Information Retrieval (ongoing), Neural NLP \& it applications (ongoing).}
+\clearpage
+
+%-----------POSITION OF RESPONSIBILITY-----------%
+\section{Position Of Responsibility}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Student Volunteer -- FSTTCS 2024}{Dec 2024}
+    {IIT Gandhinagar}{}
+    \resumeItemListStart
+        \resumeItem{Supported the organization of an international theoretical computer science conference by managing registrations, providing on-site technical assistance and preparing attendee kits.}
+        \resumeItem{Attended research talks and interacted with professors and researchers, gaining exposure to contemporary topics in theoretical computer science.}
+    \resumeItemListEnd
+
+\resumeSubheading
+    {Convenor, Heritage Club}{April 2025 -- May 2026}
+    {DAU}{}
+    \resumeItemListStart
+        \resumeItem{Appointed directly by the faculty mentor to revive the dormant Heritage Club after two years of inactivity, leading a 5-member team while coordinating with institute authorities to secure approvals and execute club activities.}
+        \resumeItem{Managed end-to-end event logistics for \textbf{SPIC MACAY} classical music performances, coordinating with artists, volunteers, and campus administration.}
+        \resumeItem{Approached local businesses for sponsorships and partnerships to support club initiatives and events.}
+    \resumeItemListEnd
+    
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------%
+\section{Achievements}
+\resumeItemListStart
+  \resumeItem{Selected as a Summer Research Intern at \textbf{IIT Gandhinagar (2025)}.}
+  \resumeItem{Selected for the prestigious \textbf{ACM India Summer School on Quantum Circuits and Quantum Algorithms (2025)} at JUIT, Solan.}
+  \resumeItem{Achieved a \textbf{99.01} percentile in \textbf{JEE Main 2023}, placing in the top 1\% among 1.11+ million candidates across India.}
+
+\resumeItemListEnd
+
+% Make sure this is in your preamble:
+% \usepackage{hyperref}
+
+\section*{Certifications \& Workshops}
+\resumeSubheading
+    {Old and New Tricks with Cards}{Mar 2025}
+    {NPTEL+ Short Term Program}{Online}
+    \resumeItemListStart
+        \resumeItem{Explored mathematical techniques behind self-working card tricks, combining principles of mathematics, psychology, and performance art.}
+        \resumeItem{\textbf{Certificate:} \href{https://drive.google.com/file/d/1W27CjJHHNJmL7A4i5fK2vLm0KD37JsCd/view}{\textcolor{blue}{View Credential}}}
+    \resumeItemListEnd
+
+
+\end{document}
