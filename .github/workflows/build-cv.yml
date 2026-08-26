@@ -25,7 +25,7 @@ jobs:
       - name: Prepare website
         run: |
           mkdir -p public
-          cp CV.pdf public/CV.pdf
+          cp main.pdf public/CV.pdf
 
           cat > public/index.html <<'EOF'
           <!DOCTYPE html>
