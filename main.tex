@@ -178,6 +178,30 @@
 %-----------PROJECTS-----------%
 \section{Projects}
 \resumeSubHeadingListStart
+% \resumeProjectHeading
+%     {\textbf{Evidence-Backed RAG System} $|$ \emph{Python, ChromaDB, BM25, RRF, Cross-Encoder, FastAPI, Streamlit}}%
+%     {\href{https://github.com/Virat-Shrimali/evidence-backed-rag}{\faGithub} \href{https://evidence-backed-rag-viratns05.streamlit.app/}{Live}}
+%     \resumeItemListStart
+%         \resumeItem{Engineered an end-to-end \textbf{hybrid RAG architecture} combining MiniLM dense embeddings, \textbf{BM25 sparse retrieval}, Reciprocal Rank Fusion, and \textbf{Cross-Encoder reranking} for evidence-aware document retrieval.}
+        
+%         \resumeItem{Designed a \textbf{citation-grounded generation layer} with chunk-level provenance, evidence sufficiency scoring, and deterministic refusal logic; achieved \textbf{95.45\% Recall@5} and \textbf{100\% refusal accuracy} on a golden QA benchmark.}
+        
+%         \resumeItem{Built an auditable retrieval interface exposing \textbf{candidate provenance, relevance scores, reranking outputs, and source-level citations}, enabling transparent inspection of the complete retrieval-to-generation pipeline.}
+        
+%         \resumeItem{Developed a shared \textbf{FastAPI + Streamlit} application, containerized with \textbf{Docker} for deployment, and implemented an evaluation harness benchmarking \textbf{Recall@K, Precision@K, MRR, RAGAS metrics, and inference latency} across retrieval strategies.}
+%     \resumeItemListEnd
+\resumeProjectHeading
+    {\textbf{Evidence-Backed RAG System} $|$ \emph{Python, ChromaDB, BM25, RRF, Cross-Encoder, FastAPI, Streamlit, Docker, Render}}%
+    {\href{https://github.com/Virat-Shrimali/evidence-backed-rag}{\faGithub} \href{https://evidence-backed-rag-viratns05.streamlit.app/}{Live}}
+    \resumeItemListStart
+        \resumeItem{Engineered an end-to-end \textbf{hybrid RAG pipeline} combining MiniLM dense embeddings, \textbf{BM25 sparse retrieval}, Reciprocal Rank Fusion (RRF), and Cross-Encoder reranking for evidence-aware document retrieval.}
+        
+        \resumeItem{Implemented a two-stage \textbf{retrieval architecture} with RRF fusion of dense + lexical candidates followed by \textbf{ms-marco MiniLM Cross-Encoder} reranking, achieving \textbf{95.45\% Recall@5} on a 26-question golden QA benchmark.}
+        
+        \resumeItem{Designed a \textbf{citation-grounded generation layer} with chunk-level provenance, evidence sufficiency checks, and deterministic refusal logic, achieving \textbf{100\% refusal accuracy} on unanswerable benchmark queries.}
+        
+        \resumeItem{Built a decoupled \textbf{FastAPI backend + Streamlit frontend}, containerized with \textbf{Docker} and deployed for live inference, with an evaluation harness benchmarking \textbf{Recall@K, Precision@K, MRR, RAGAS metrics, and latency}.}
+    \resumeItemListEnd
   \resumeProjectHeading
     {\textbf{The Almost Impossible Chessboard Puzzle} $|$ \emph{ReactJS, Node.js, HTML/CSS}}%
     {\href{https://github.com/Virat-Shrimali/chessboard-puzzle.git}{\faGithub} \href{https://chessboard-puzzle-virat-shrimalis-projects.vercel.app/}{Live}}
@@ -198,7 +222,7 @@
 
 \listOfSkills{Tools}{Git, GitHub, VS Code, \LaTeX}
 
-\listOfSkills{Libraries}{NumPy, Pandas, Matplotlib, Streamlit, Spacy}
+\listOfSkills{Libraries}{NumPy, Pandas, Spacy, Streamlit, Matplotlib}
 
 \listOfSkills{Relevant Coursework}{Distributed Databases, Machine Learning, Probability and Random Processes, Mathematical Statistics, Game Theory, Parallel \& Distributed Algorithms, DSA, OOPs, Information Retrieval (ongoing), Neural NLP \& it applications (ongoing).}
 \clearpage
@@ -238,7 +262,6 @@
 % \usepackage{hyperref}
 
 \section*{Certifications \& Workshops}
-\resumeSubHeadingListStart
 \resumeSubheading
     {Old and New Tricks with Cards}{Mar 2025}
     {NPTEL+ Short Term Program}{Online}
@@ -246,7 +269,6 @@
         \resumeItem{Explored mathematical techniques behind self-working card tricks, combining principles of mathematics, psychology, and performance art.}
         \resumeItem{\textbf{Certificate:} \href{https://drive.google.com/file/d/1W27CjJHHNJmL7A4i5fK2vLm0KD37JsCd/view}{\textcolor{blue}{View Credential}}}
     \resumeItemListEnd
-\resumeSubHeadingListEnd
 
 
 \end{document}
